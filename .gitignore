@@ -1,0 +1,6 @@
+.DS_Store
+**/target
+/*.json
+crates/sarzak/Cargo.lock
+coverage
+coverage.lcov

@@ -1,0 +1,141 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'nut'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=nut"
+                ],
+                "filter": {
+                    "name": "nut",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'gen_code_model'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=gen_code_model",
+                    "--package=nut",
+                ],
+                "filter": {
+                    "name": "gen_code_model",
+                    "kind": "bin"
+                }
+            },
+            "args": [
+                "schemas/drawing.json",
+                "src/model/drawing.rs"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_gen'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_gen",
+                    "--package=nut"
+                ],
+                "filter": {
+                    "name": "code_gen",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'make_ns'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=make_ns",
+                    "--package=nut"
+                ],
+                "filter": {
+                    "name": "make_ns",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'make_ns'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=make_ns",
+                    "--package=nut"
+                ],
+                "filter": {
+                    "name": "make_ns",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'gen_schema'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=gen_schema",
+                    "--package=nut"
+                ],
+                "filter": {
+                    "name": "gen_schema",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'gen_schema'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=gen_schema",
+                    "--package=nut"
+                ],
+                "filter": {
+                    "name": "gen_schema",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
