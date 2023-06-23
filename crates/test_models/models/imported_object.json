@@ -1,0 +1,123 @@
+{
+    "paper": {
+        "ids": [
+            "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb"
+        ],
+        "entities": {
+            "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb": {
+                "id": "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb",
+                "domain_name": "imported_object",
+                "description": "Domain to test importing an Object.\n\nWe are importing an object from the sarzak domain. We do some sick stuff importing objects...",
+                "domain_ns": "b49d6fe1-e5e9-5896-bd42-b72012429e52",
+                "width": 4000,
+                "height": 3200,
+                "offset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "objects": {
+                    "7178e7a4-5131-504b-a7b3-c2c0cfedf343": {
+                        "x": 429,
+                        "y": 408,
+                        "width": 216,
+                        "height": 155,
+                        "id": "7178e7a4-5131-504b-a7b3-c2c0cfedf343"
+                    },
+                    "0e3094c7-3d15-5dd9-93ca-26b37ee71d3a": {
+                        "x": 935,
+                        "y": 403,
+                        "width": 231,
+                        "height": 162,
+                        "id": "0e3094c7-3d15-5dd9-93ca-26b37ee71d3a"
+                    }
+                },
+                "relationships": {
+                    "0c2c0855-f162-5c0d-97c6-5609a2c86f58": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "0e3094c7-3d15-5dd9-93ca-26b37ee71d3a",
+                                "x": 935,
+                                "y": 489,
+                                "offset": {
+                                    "x": -124,
+                                    "y": -51
+                                },
+                                "dir": "West"
+                            },
+                            "to": {
+                                "id": "7178e7a4-5131-504b-a7b3-c2c0cfedf343",
+                                "x": 645,
+                                "y": 490,
+                                "offset": {
+                                    "x": 29,
+                                    "y": 34
+                                },
+                                "dir": "East"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "objects": {
+        "ids": [
+            "7178e7a4-5131-504b-a7b3-c2c0cfedf343",
+            "0e3094c7-3d15-5dd9-93ca-26b37ee71d3a"
+        ],
+        "entities": {
+            "7178e7a4-5131-504b-a7b3-c2c0cfedf343": {
+                "id": "7178e7a4-5131-504b-a7b3-c2c0cfedf343",
+                "key_letter": "OBJ",
+                "name": "Object",
+                "description": "Imported Object\n\n❗️ { \"imported_object\": { \"domain\": \"sarzak\", \"package\": \"nut\", \"model_path\": \"../../sarzak/models\" }}\n\n",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            },
+            "0e3094c7-3d15-5dd9-93ca-26b37ee71d3a": {
+                "id": "0e3094c7-3d15-5dd9-93ca-26b37ee71d3a",
+                "key_letter": "AO",
+                "name": "Another Object",
+                "description": "This is another object, but different.\n\nAs a side effect, this is going to test being able to collapse a type with a space. It will break, and I’ll have a new feature.\n",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            }
+        }
+    },
+    "relationships": {
+        "ids": [
+            "0c2c0855-f162-5c0d-97c6-5609a2c86f58"
+        ],
+        "entities": {
+            "0c2c0855-f162-5c0d-97c6-5609a2c86f58": {
+                "Binary": {
+                    "id": "0c2c0855-f162-5c0d-97c6-5609a2c86f58",
+                    "number": 1,
+                    "from": {
+                        "obj_id": "0e3094c7-3d15-5dd9-93ca-26b37ee71d3a",
+                        "description": "is pointed at by",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "ptr"
+                    },
+                    "to": {
+                        "obj_id": "7178e7a4-5131-504b-a7b3-c2c0cfedf343",
+                        "description": "points at",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional"
+                    }
+                }
+            }
+        }
+    }
+}

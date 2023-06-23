@@ -1,0 +1,273 @@
+{
+    "paper": {
+        "ids": [
+            "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb"
+        ],
+        "entities": {
+            "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb": {
+                "id": "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb",
+                "domain_name": "one_to_many",
+                "description": "Domain to test 1-M relationships.",
+                "domain_ns": "b49d6fe1-e5e9-5896-bd42-b72012429e52",
+                "width": 4000,
+                "height": 3200,
+                "offset": {
+                    "x": -16,
+                    "y": -394
+                },
+                "objects": {
+                    "92bc9be3-761f-5b31-a013-79a4d5343870": {
+                        "x": 697,
+                        "y": 1110,
+                        "width": 211,
+                        "height": 141,
+                        "id": "92bc9be3-761f-5b31-a013-79a4d5343870"
+                    },
+                    "07d4f7ff-af18-5db5-bd3e-c8df9078a816": {
+                        "x": 245,
+                        "y": 1111,
+                        "width": 216,
+                        "height": 136,
+                        "id": "07d4f7ff-af18-5db5-bd3e-c8df9078a816"
+                    },
+                    "db839890-ce6f-51e8-91cb-07d494cb81c7": {
+                        "x": 1179,
+                        "y": 1109,
+                        "width": 231,
+                        "height": 146,
+                        "id": "db839890-ce6f-51e8-91cb-07d494cb81c7"
+                    },
+                    "04f50b98-563e-5268-b6b4-7ea3b18d162b": {
+                        "x": 698,
+                        "y": 690,
+                        "width": 224,
+                        "height": 136,
+                        "id": "04f50b98-563e-5268-b6b4-7ea3b18d162b"
+                    }
+                },
+                "relationships": {
+                    "40270f12-f681-5d2f-b879-20f43e76f91f": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "07d4f7ff-af18-5db5-bd3e-c8df9078a816",
+                                "x": 461,
+                                "y": 1184,
+                                "offset": {
+                                    "x": 11,
+                                    "y": 38
+                                },
+                                "dir": "East"
+                            },
+                            "to": {
+                                "id": "92bc9be3-761f-5b31-a013-79a4d5343870",
+                                "x": 697,
+                                "y": 1184,
+                                "offset": {
+                                    "x": -69,
+                                    "y": 39
+                                },
+                                "dir": "West"
+                            }
+                        }
+                    },
+                    "a29e0fe5-6ba5-5af9-8f22-2ae8a8219cb3": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "db839890-ce6f-51e8-91cb-07d494cb81c7",
+                                "x": 1179,
+                                "y": 1181,
+                                "offset": {
+                                    "x": -118,
+                                    "y": 33
+                                },
+                                "dir": "West"
+                            },
+                            "to": {
+                                "id": "92bc9be3-761f-5b31-a013-79a4d5343870",
+                                "x": 908,
+                                "y": 1181,
+                                "offset": {
+                                    "x": 14,
+                                    "y": 38
+                                },
+                                "dir": "East"
+                            }
+                        }
+                    },
+                    "dfe91224-6eaf-5b87-85db-8b7df06b620b": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "04f50b98-563e-5268-b6b4-7ea3b18d162b",
+                                "x": 803,
+                                "y": 826,
+                                "offset": {
+                                    "x": 20,
+                                    "y": 21
+                                },
+                                "dir": "South"
+                            },
+                            "to": {
+                                "id": "92bc9be3-761f-5b31-a013-79a4d5343870",
+                                "x": 800,
+                                "y": 1110,
+                                "offset": {
+                                    "x": 18,
+                                    "y": -14
+                                },
+                                "dir": "North"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "objects": {
+        "ids": [
+            "92bc9be3-761f-5b31-a013-79a4d5343870",
+            "07d4f7ff-af18-5db5-bd3e-c8df9078a816",
+            "db839890-ce6f-51e8-91cb-07d494cb81c7",
+            "04f50b98-563e-5268-b6b4-7ea3b18d162b"
+        ],
+        "entities": {
+            "92bc9be3-761f-5b31-a013-79a4d5343870": {
+                "id": "92bc9be3-761f-5b31-a013-79a4d5343870",
+                "key_letter": "TGT",
+                "name": "Referent",
+                "description": "The object of so many relationships\n\nI’m related to stuff.",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "61b791d9-8b6d-5017-a063-fa2c67f956a1": {
+                        "id": "61b791d9-8b6d-5017-a063-fa2c67f956a1",
+                        "name": "name",
+                        "type": "String"
+                    }
+                }
+            },
+            "07d4f7ff-af18-5db5-bd3e-c8df9078a816": {
+                "id": "07d4f7ff-af18-5db5-bd3e-c8df9078a816",
+                "key_letter": "A",
+                "name": "A",
+                "description": "This is the [`Referrer`] side of a 1-M relationship",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "814be2a0-9925-5e10-a382-a90068ef0619": {
+                        "id": "814be2a0-9925-5e10-a382-a90068ef0619",
+                        "name": "name",
+                        "type": "String"
+                    }
+                }
+            },
+            "db839890-ce6f-51e8-91cb-07d494cb81c7": {
+                "id": "db839890-ce6f-51e8-91cb-07d494cb81c7",
+                "key_letter": "B",
+                "name": "B",
+                "description": "Connected to TGT via _R2_. \n\nThis is for testing a 1c-M relationship.",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "fe240d6f-7fc2-578a-8332-48f8cb7c8f24": {
+                        "id": "fe240d6f-7fc2-578a-8332-48f8cb7c8f24",
+                        "name": "baz",
+                        "type": "String"
+                    }
+                }
+            },
+            "04f50b98-563e-5268-b6b4-7ea3b18d162b": {
+                "id": "04f50b98-563e-5268-b6b4-7ea3b18d162b",
+                "key_letter": "C",
+                "name": "C",
+                "description": "This is the [`Referrent`] side of a 1-Mc",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "83988cda-15f2-5cdc-b4e6-a8f0ef4ddcba": {
+                        "id": "83988cda-15f2-5cdc-b4e6-a8f0ef4ddcba",
+                        "name": "jackpot",
+                        "type": "Float"
+                    }
+                }
+            }
+        }
+    },
+    "relationships": {
+        "ids": [
+            "40270f12-f681-5d2f-b879-20f43e76f91f",
+            "a29e0fe5-6ba5-5af9-8f22-2ae8a8219cb3",
+            "dfe91224-6eaf-5b87-85db-8b7df06b620b"
+        ],
+        "entities": {
+            "40270f12-f681-5d2f-b879-20f43e76f91f": {
+                "Binary": {
+                    "id": "40270f12-f681-5d2f-b879-20f43e76f91f",
+                    "number": 1,
+                    "from": {
+                        "obj_id": "07d4f7ff-af18-5db5-bd3e-c8df9078a816",
+                        "description": "is pointed at by",
+                        "cardinality": "Many",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "ptr"
+                    },
+                    "to": {
+                        "obj_id": "92bc9be3-761f-5b31-a013-79a4d5343870",
+                        "description": "points at",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional"
+                    }
+                }
+            },
+            "a29e0fe5-6ba5-5af9-8f22-2ae8a8219cb3": {
+                "Binary": {
+                    "id": "a29e0fe5-6ba5-5af9-8f22-2ae8a8219cb3",
+                    "number": 2,
+                    "from": {
+                        "obj_id": "db839890-ce6f-51e8-91cb-07d494cb81c7",
+                        "description": "is pointed at by",
+                        "cardinality": "Many",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "ptr"
+                    },
+                    "to": {
+                        "obj_id": "92bc9be3-761f-5b31-a013-79a4d5343870",
+                        "description": "points at",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "dfe91224-6eaf-5b87-85db-8b7df06b620b": {
+                "Binary": {
+                    "id": "dfe91224-6eaf-5b87-85db-8b7df06b620b",
+                    "number": 3,
+                    "from": {
+                        "obj_id": "04f50b98-563e-5268-b6b4-7ea3b18d162b",
+                        "description": "is pointed at by",
+                        "cardinality": "Many",
+                        "conditionality": "Conditional",
+                        "formalizing_attribute_name": "ptr"
+                    },
+                    "to": {
+                        "obj_id": "92bc9be3-761f-5b31-a013-79a4d5343870",
+                        "description": "points at",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional"
+                    }
+                }
+            }
+        }
+    }
+}

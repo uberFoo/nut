@@ -1,0 +1,955 @@
+{
+    "paper": {
+        "ids": [
+            "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb"
+        ],
+        "entities": {
+            "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb": {
+                "id": "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb",
+                "domain_name": "drawing",
+                "description": "Domain for drawing boxen and lines.",
+                "domain_ns": "b49d6fe1-e5e9-5896-bd42-b72012429e52",
+                "width": 4000,
+                "height": 3200,
+                "offset": {
+                    "x": -380,
+                    "y": -640
+                },
+                "objects": {
+                    "56c5ed80-25e7-592e-ab36-a306c78ac58b": {
+                        "x": 1683,
+                        "y": 1007,
+                        "width": 251,
+                        "height": 128
+                    },
+                    "9a9dcaea-a969-54ba-90ce-fad03cec83d8": {
+                        "x": 1129,
+                        "y": 1430,
+                        "width": 251,
+                        "height": 170
+                    },
+                    "27edcc78-f257-5a0b-a2e4-c233987e0889": {
+                        "x": 2227,
+                        "y": 1433,
+                        "width": 272,
+                        "height": 140
+                    },
+                    "7178e7a4-5131-504b-a7b3-c2c0cfedf343": {
+                        "x": 681,
+                        "y": 1430,
+                        "width": 246,
+                        "height": 153
+                    },
+                    "2b428772-1c21-56f3-ab6f-04a5c798e08a": {
+                        "x": 2098,
+                        "y": 1007,
+                        "width": 260,
+                        "height": 125
+                    },
+                    "82c4f811-7872-5301-8cf9-62317fb85dfe": {
+                        "x": 2585,
+                        "y": 1979,
+                        "width": 168,
+                        "height": 114
+                    },
+                    "a7d2303d-e2b5-5c4f-a7ba-a9a852146871": {
+                        "x": 2525,
+                        "y": 1003,
+                        "width": 263,
+                        "height": 133
+                    },
+                    "8dd4e8b9-aec5-5a1c-94d9-a765ac514f62": {
+                        "x": 2294,
+                        "y": 634,
+                        "width": 302,
+                        "height": 159
+                    },
+                    "77d72046-26d1-5cde-a39a-178b4e7fff71": {
+                        "x": 1957,
+                        "y": 1977,
+                        "width": 173,
+                        "height": 108
+                    },
+                    "c3bd7676-dd84-5bd7-9d19-a756d06a63c4": {
+                        "x": 2168,
+                        "y": 1978,
+                        "width": 163,
+                        "height": 106
+                    },
+                    "423935ca-86d2-5d0a-ad35-8e7f00663448": {
+                        "x": 1705,
+                        "y": 1427,
+                        "width": 209,
+                        "height": 134
+                    },
+                    "c5e70120-c313-5fcd-9c14-6ef38cc9b6b6": {
+                        "x": 2373,
+                        "y": 1978,
+                        "width": 162,
+                        "height": 108
+                    },
+                    "0cbeeb50-21ce-5e83-9f2e-65d1410d553f": {
+                        "x": 2969,
+                        "y": 1002,
+                        "width": 252,
+                        "height": 134
+                    },
+                    "83049490-b61e-55c4-a90f-afb3361e0661": {
+                        "x": 2232,
+                        "y": 1718,
+                        "width": 232,
+                        "height": 117
+                    }
+                },
+                "relationships": {
+                    "f829edd3-e3d9-5a5f-981d-6123393242c0": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                                "dir": "West",
+                                "x": 2227,
+                                "y": 1530,
+                                "offset": {
+                                    "x": -188,
+                                    "y": 72
+                                }
+                            },
+                            "to": {
+                                "id": "423935ca-86d2-5d0a-ad35-8e7f00663448",
+                                "dir": "East",
+                                "x": 1914,
+                                "y": 1529,
+                                "offset": {
+                                    "x": -148,
+                                    "y": 62
+                                }
+                            }
+                        }
+                    },
+                    "4b6d1c19-0ca5-57bb-aef9-65ef5731183b": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                                "dir": "West",
+                                "x": 2227,
+                                "y": 1473,
+                                "offset": {
+                                    "x": -152,
+                                    "y": -50
+                                }
+                            },
+                            "to": {
+                                "id": "423935ca-86d2-5d0a-ad35-8e7f00663448",
+                                "dir": "East",
+                                "x": 1914,
+                                "y": 1472,
+                                "offset": {
+                                    "x": -106,
+                                    "y": -78
+                                }
+                            }
+                        }
+                    },
+                    "593ddc5f-5efd-5a7e-a07b-4efa70c5dbe2": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "a7d2303d-e2b5-5c4f-a7ba-a9a852146871",
+                                "dir": "South",
+                                "x": 2542,
+                                "y": 1136,
+                                "offset": {
+                                    "x": 20,
+                                    "y": 20
+                                }
+                            },
+                            "to": {
+                                "id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                                "dir": "East",
+                                "x": 2499,
+                                "y": 1490,
+                                "offset": {
+                                    "x": 16,
+                                    "y": 28
+                                }
+                            }
+                        }
+                    },
+                    "8d0b2ffe-fbb9-5074-a687-fc451ae3d2b6": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+                                "dir": "South",
+                                "x": 2310,
+                                "y": 1132,
+                                "offset": {
+                                    "x": 15,
+                                    "y": 39
+                                }
+                            },
+                            "to": {
+                                "id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                                "dir": "North",
+                                "x": 2308,
+                                "y": 1433,
+                                "offset": {
+                                    "x": 20,
+                                    "y": -24
+                                }
+                            }
+                        }
+                    },
+                    "118be1d3-9bd7-5a9b-a230-c9a0cf1ea302": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "a7d2303d-e2b5-5c4f-a7ba-a9a852146871",
+                                "dir": "West",
+                                "x": 2525,
+                                "y": 1078,
+                                "offset": {
+                                    "x": -103,
+                                    "y": -43
+                                }
+                            },
+                            "to": {
+                                "id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                                "dir": "North",
+                                "x": 2485,
+                                "y": 1433,
+                                "offset": {
+                                    "x": 12,
+                                    "y": -36
+                                }
+                            }
+                        }
+                    },
+                    "1dfa4c7c-22fe-516f-bd0c-702b37e12c80": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "9a9dcaea-a969-54ba-90ce-fad03cec83d8",
+                                "dir": "North",
+                                "x": 1225,
+                                "y": 1430,
+                                "offset": {
+                                    "x": -150,
+                                    "y": -67
+                                }
+                            },
+                            "to": {
+                                "id": "7178e7a4-5131-504b-a7b3-c2c0cfedf343",
+                                "dir": "North",
+                                "x": 831,
+                                "y": 1430,
+                                "offset": {
+                                    "x": -66,
+                                    "y": -69
+                                }
+                            }
+                        }
+                    },
+                    "2f06f829-25f8-5899-b72a-e9ec9e20c7ac": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "a7d2303d-e2b5-5c4f-a7ba-a9a852146871",
+                                "dir": "South",
+                                "x": 2755,
+                                "y": 1136,
+                                "offset": {
+                                    "x": -52,
+                                    "y": 86
+                                }
+                            },
+                            "to": {
+                                "id": "0cbeeb50-21ce-5e83-9f2e-65d1410d553f",
+                                "dir": "South",
+                                "x": 3004,
+                                "y": 1136,
+                                "offset": {
+                                    "x": 20,
+                                    "y": 20
+                                }
+                            }
+                        }
+                    },
+                    "7f5a7caa-f1f8-56dd-bced-08e54a6b4d96": {
+                        "IsaUI": {
+                            "from": {
+                                "id": "83049490-b61e-55c4-a90f-afb3361e0661",
+                                "dir": "South",
+                                "x": 2345,
+                                "y": 1835,
+                                "offset": {
+                                    "x": 20,
+                                    "y": 20
+                                }
+                            },
+                            "to": [
+                                {
+                                    "id": "77d72046-26d1-5cde-a39a-178b4e7fff71",
+                                    "dir": "North",
+                                    "x": 2039,
+                                    "y": 1977,
+                                    "offset": {
+                                        "x": 20,
+                                        "y": 20
+                                    }
+                                },
+                                {
+                                    "id": "82c4f811-7872-5301-8cf9-62317fb85dfe",
+                                    "dir": "North",
+                                    "x": 2653,
+                                    "y": 1979,
+                                    "offset": {
+                                        "x": 20,
+                                        "y": 20
+                                    }
+                                },
+                                {
+                                    "id": "c5e70120-c313-5fcd-9c14-6ef38cc9b6b6",
+                                    "dir": "North",
+                                    "x": 2443,
+                                    "y": 1978,
+                                    "offset": {
+                                        "x": 20,
+                                        "y": 20
+                                    }
+                                },
+                                {
+                                    "id": "c3bd7676-dd84-5bd7-9d19-a756d06a63c4",
+                                    "dir": "North",
+                                    "x": 2256,
+                                    "y": 1978,
+                                    "offset": {
+                                        "x": 20,
+                                        "y": 20
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "44da1a05-9c9c-5056-abfc-c5ba7e32c7cd": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+                                "dir": "North",
+                                "x": 2144,
+                                "y": 1007,
+                                "offset": {
+                                    "x": -196,
+                                    "y": -70
+                                }
+                            },
+                            "to": {
+                                "id": "56c5ed80-25e7-592e-ab36-a306c78ac58b",
+                                "dir": "North",
+                                "x": 1819,
+                                "y": 1007,
+                                "offset": {
+                                    "x": -173,
+                                    "y": -62
+                                }
+                            }
+                        }
+                    },
+                    "e67ae37e-e241-5cfd-951a-34f8021a628a": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+                                "dir": "South",
+                                "x": 2244,
+                                "y": 1132,
+                                "offset": {
+                                    "x": -128,
+                                    "y": 33
+                                }
+                            },
+                            "to": {
+                                "id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                                "dir": "North",
+                                "x": 2244,
+                                "y": 1433,
+                                "offset": {
+                                    "x": -160,
+                                    "y": -68
+                                }
+                            }
+                        }
+                    },
+                    "5e536fd8-c93f-542d-8149-fb30643b9c1c": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "9a9dcaea-a969-54ba-90ce-fad03cec83d8",
+                                "dir": "East",
+                                "x": 1380,
+                                "y": 1495,
+                                "offset": {
+                                    "x": 12,
+                                    "y": -34
+                                }
+                            },
+                            "to": {
+                                "id": "423935ca-86d2-5d0a-ad35-8e7f00663448",
+                                "dir": "West",
+                                "x": 1705,
+                                "y": 1494,
+                                "offset": {
+                                    "x": -209,
+                                    "y": 51
+                                }
+                            }
+                        }
+                    },
+                    "b93b891d-f1be-5d9e-ae1f-fef7351fe26e": {
+                        "BinaryUI": {
+                            "from": {
+                                "id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                                "dir": "South",
+                                "x": 2340,
+                                "y": 1573,
+                                "offset": {
+                                    "x": 40,
+                                    "y": 25
+                                }
+                            },
+                            "to": {
+                                "id": "83049490-b61e-55c4-a90f-afb3361e0661",
+                                "dir": "North",
+                                "x": 2339,
+                                "y": 1718,
+                                "offset": {
+                                    "x": 28,
+                                    "y": -21
+                                }
+                            }
+                        }
+                    },
+                    "e8dbf590-7987-5d7e-8c52-7f269608db4c": {
+                        "IsaUI": {
+                            "from": {
+                                "id": "8dd4e8b9-aec5-5a1c-94d9-a765ac514f62",
+                                "dir": "South",
+                                "x": 2438,
+                                "y": 793,
+                                "offset": {
+                                    "x": 20,
+                                    "y": 20
+                                }
+                            },
+                            "to": [
+                                {
+                                    "id": "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+                                    "dir": "North",
+                                    "x": 2219,
+                                    "y": 1007,
+                                    "offset": {
+                                        "x": 20,
+                                        "y": 20
+                                    }
+                                },
+                                {
+                                    "id": "a7d2303d-e2b5-5c4f-a7ba-a9a852146871",
+                                    "dir": "North",
+                                    "x": 2655,
+                                    "y": 1003,
+                                    "offset": {
+                                        "x": 20,
+                                        "y": 20
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "config": null
+            }
+        }
+    },
+    "objects": {
+        "ids": [
+            "9a9dcaea-a969-54ba-90ce-fad03cec83d8",
+            "7178e7a4-5131-504b-a7b3-c2c0cfedf343",
+            "8dd4e8b9-aec5-5a1c-94d9-a765ac514f62",
+            "83049490-b61e-55c4-a90f-afb3361e0661",
+            "77d72046-26d1-5cde-a39a-178b4e7fff71",
+            "c3bd7676-dd84-5bd7-9d19-a756d06a63c4",
+            "c5e70120-c313-5fcd-9c14-6ef38cc9b6b6",
+            "82c4f811-7872-5301-8cf9-62317fb85dfe",
+            "27edcc78-f257-5a0b-a2e4-c233987e0889",
+            "423935ca-86d2-5d0a-ad35-8e7f00663448",
+            "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+            "a7d2303d-e2b5-5c4f-a7ba-a9a852146871",
+            "0cbeeb50-21ce-5e83-9f2e-65d1410d553f",
+            "56c5ed80-25e7-592e-ab36-a306c78ac58b"
+        ],
+        "entities": {
+            "423935ca-86d2-5d0a-ad35-8e7f00663448": {
+                "id": "423935ca-86d2-5d0a-ad35-8e7f00663448",
+                "key_letter": "P",
+                "name": "Point",
+                "description": "A point is a two-tuple that represents a location on the drawing canvas.",
+                "attributes": {
+                    "3b61169b-f5d6-5e06-9516-c847030f6f8a": {
+                        "id": "3b61169b-f5d6-5e06-9516-c847030f6f8a",
+                        "name": "y",
+                        "type": "Integer"
+                    },
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "7287cebe-647f-5666-938c-75810a455b3a": {
+                        "id": "7287cebe-647f-5666-938c-75810a455b3a",
+                        "name": "x",
+                        "type": "Integer"
+                    }
+                }
+            },
+            "27edcc78-f257-5a0b-a2e4-c233987e0889": {
+                "id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                "key_letter": "A",
+                "name": "Anchor",
+                "description": "An anchor, or anchor point, is the location where an arrow from a relationship attached to an object.\n\nIt contains the `x` and `y` coordinates of the location as global coordinates. It also contains a direction, so that we know the orientation to draw the arrows. Finally, there is an offset, which is a point that describes the offset from the anchor for the relationship phrase.",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            },
+            "c5e70120-c313-5fcd-9c14-6ef38cc9b6b6": {
+                "id": "c5e70120-c313-5fcd-9c14-6ef38cc9b6b6",
+                "key_letter": "DIR_S",
+                "name": "South",
+                "description": "",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            },
+            "2b428772-1c21-56f3-ab6f-04a5c798e08a": {
+                "id": "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+                "key_letter": "BUI",
+                "name": "BinaryUI",
+                "description": "This represents additional information necessary to render a `Binary` relationship in the user interface.",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            },
+            "83049490-b61e-55c4-a90f-afb3361e0661": {
+                "id": "83049490-b61e-55c4-a90f-afb3361e0661",
+                "key_letter": "DIR",
+                "name": "Direction",
+                "description": "This represents the cardinal directions.",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            },
+            "77d72046-26d1-5cde-a39a-178b4e7fff71": {
+                "id": "77d72046-26d1-5cde-a39a-178b4e7fff71",
+                "key_letter": "DIR_N",
+                "name": "North",
+                "description": "",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            },
+            "a7d2303d-e2b5-5c4f-a7ba-a9a852146871": {
+                "id": "a7d2303d-e2b5-5c4f-a7ba-a9a852146871",
+                "key_letter": "IUI",
+                "name": "IsaUI",
+                "description": "This represents additional data necessary to render an `Isa` relationship in the user interface.",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            },
+            "56c5ed80-25e7-592e-ab36-a306c78ac58b": {
+                "id": "56c5ed80-25e7-592e-ab36-a306c78ac58b",
+                "key_letter": "R_BIN",
+                "name": "Binary",
+                "description": "Binary Relationship from sarzak domain",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "da88d452-73e4-5344-a0a9-ae0bac76b845": {
+                        "id": "da88d452-73e4-5344-a0a9-ae0bac76b845",
+                        "name": "number",
+                        "type": "Integer"
+                    }
+                }
+            },
+            "8dd4e8b9-aec5-5a1c-94d9-a765ac514f62": {
+                "id": "8dd4e8b9-aec5-5a1c-94d9-a765ac514f62",
+                "key_letter": "RUI",
+                "name": "RelationshipUI",
+                "description": "Additional information necessary to render relationships in the user interface.",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            },
+            "0cbeeb50-21ce-5e83-9f2e-65d1410d553f": {
+                "id": "0cbeeb50-21ce-5e83-9f2e-65d1410d553f",
+                "key_letter": "R_ISA",
+                "name": "Isa",
+                "description": "The imported R_ISA object from the sarzak domain.",
+                "attributes": {
+                    "2eca4b15-fec4-5065-81d5-b1ac6ceb38a3": {
+                        "id": "2eca4b15-fec4-5065-81d5-b1ac6ceb38a3",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "5f35488b-11db-5ba6-8d91-0fe68a844510": {
+                        "id": "5f35488b-11db-5ba6-8d91-0fe68a844510",
+                        "name": "number",
+                        "type": "Integer"
+                    }
+                }
+            },
+            "9a9dcaea-a969-54ba-90ce-fad03cec83d8": {
+                "id": "9a9dcaea-a969-54ba-90ce-fad03cec83d8",
+                "key_letter": "OUI",
+                "name": "ObjectUI",
+                "description": "This represents additional information that is necessary to draw an Object in the user interface.",
+                "attributes": {
+                    "092d7e08-6723-5b84-93fe-2d841175058e": {
+                        "id": "092d7e08-6723-5b84-93fe-2d841175058e",
+                        "name": "width",
+                        "type": "Integer"
+                    },
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "a3eb2148-c8ed-537c-b06d-064f9797742c": {
+                        "id": "a3eb2148-c8ed-537c-b06d-064f9797742c",
+                        "name": "height",
+                        "type": "Integer"
+                    }
+                }
+            },
+            "82c4f811-7872-5301-8cf9-62317fb85dfe": {
+                "id": "82c4f811-7872-5301-8cf9-62317fb85dfe",
+                "key_letter": "DIR_W",
+                "name": "West",
+                "description": "",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            },
+            "7178e7a4-5131-504b-a7b3-c2c0cfedf343": {
+                "id": "7178e7a4-5131-504b-a7b3-c2c0cfedf343",
+                "key_letter": "OBJ",
+                "name": "Object",
+                "description": "Object imported from the sarzak Domain.\n\nWe don’t have a means of representing this as imported in Cuckoo, so I’m just adding it here.",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "7d07d8ac-b12c-5245-92f5-af056570ab6c": {
+                        "id": "7d07d8ac-b12c-5245-92f5-af056570ab6c",
+                        "name": "name",
+                        "type": "String"
+                    }
+                }
+            },
+            "c3bd7676-dd84-5bd7-9d19-a756d06a63c4": {
+                "id": "c3bd7676-dd84-5bd7-9d19-a756d06a63c4",
+                "key_letter": "DIR_E",
+                "name": "East",
+                "description": "",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            }
+        }
+    },
+    "relationships": {
+        "ids": [
+            "1dfa4c7c-22fe-516f-bd0c-702b37e12c80",
+            "7f5a7caa-f1f8-56dd-bced-08e54a6b4d96",
+            "b93b891d-f1be-5d9e-ae1f-fef7351fe26e",
+            "f829edd3-e3d9-5a5f-981d-6123393242c0",
+            "4b6d1c19-0ca5-57bb-aef9-65ef5731183b",
+            "e8dbf590-7987-5d7e-8c52-7f269608db4c",
+            "e67ae37e-e241-5cfd-951a-34f8021a628a",
+            "8d0b2ffe-fbb9-5074-a687-fc451ae3d2b6",
+            "118be1d3-9bd7-5a9b-a230-c9a0cf1ea302",
+            "593ddc5f-5efd-5a7e-a07b-4efa70c5dbe2",
+            "2f06f829-25f8-5899-b72a-e9ec9e20c7ac",
+            "44da1a05-9c9c-5056-abfc-c5ba7e32c7cd",
+            "5e536fd8-c93f-542d-8149-fb30643b9c1c"
+        ],
+        "entities": {
+            "593ddc5f-5efd-5a7e-a07b-4efa70c5dbe2": {
+                "Binary": {
+                    "id": "593ddc5f-5efd-5a7e-a07b-4efa70c5dbe2",
+                    "number": 10,
+                    "from": {
+                        "obj_id": "a7d2303d-e2b5-5c4f-a7ba-a9a852146871",
+                        "description": "anchors the subtypes of an",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "to"
+                    },
+                    "to": {
+                        "obj_id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                        "description": "is drawn to",
+                        "cardinality": "Many",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "f829edd3-e3d9-5a5f-981d-6123393242c0": {
+                "Binary": {
+                    "id": "f829edd3-e3d9-5a5f-981d-6123393242c0",
+                    "number": 4,
+                    "from": {
+                        "obj_id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                        "description": "describes the location of an",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "location"
+                    },
+                    "to": {
+                        "obj_id": "423935ca-86d2-5d0a-ad35-8e7f00663448",
+                        "description": "has a location, formalized by a",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "4b6d1c19-0ca5-57bb-aef9-65ef5731183b": {
+                "Binary": {
+                    "id": "4b6d1c19-0ca5-57bb-aef9-65ef5731183b",
+                    "number": 5,
+                    "from": {
+                        "obj_id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                        "description": "describes an offset for an",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "offset"
+                    },
+                    "to": {
+                        "obj_id": "423935ca-86d2-5d0a-ad35-8e7f00663448",
+                        "description": "has a phrase offset",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "e67ae37e-e241-5cfd-951a-34f8021a628a": {
+                "Binary": {
+                    "id": "e67ae37e-e241-5cfd-951a-34f8021a628a",
+                    "number": 7,
+                    "from": {
+                        "obj_id": "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+                        "description": "anchors the from side",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "from"
+                    },
+                    "to": {
+                        "obj_id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                        "description": "is drawn from",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "44da1a05-9c9c-5056-abfc-c5ba7e32c7cd": {
+                "Binary": {
+                    "id": "44da1a05-9c9c-5056-abfc-c5ba7e32c7cd",
+                    "number": 12,
+                    "from": {
+                        "obj_id": "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+                        "description": "is represented in the UI by",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "binary"
+                    },
+                    "to": {
+                        "obj_id": "56c5ed80-25e7-592e-ab36-a306c78ac58b",
+                        "description": "contains additional attributes to render",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "2f06f829-25f8-5899-b72a-e9ec9e20c7ac": {
+                "Binary": {
+                    "id": "2f06f829-25f8-5899-b72a-e9ec9e20c7ac",
+                    "number": 11,
+                    "from": {
+                        "obj_id": "a7d2303d-e2b5-5c4f-a7ba-a9a852146871",
+                        "description": "is represented in the UI by",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "isa"
+                    },
+                    "to": {
+                        "obj_id": "0cbeeb50-21ce-5e83-9f2e-65d1410d553f",
+                        "description": "contains additional attributes to render",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "e8dbf590-7987-5d7e-8c52-7f269608db4c": {
+                "Isa": {
+                    "id": "e8dbf590-7987-5d7e-8c52-7f269608db4c",
+                    "number": 6,
+                    "obj_id": "8dd4e8b9-aec5-5a1c-94d9-a765ac514f62",
+                    "subtypes": [
+                        "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+                        "a7d2303d-e2b5-5c4f-a7ba-a9a852146871"
+                    ]
+                }
+            },
+            "8d0b2ffe-fbb9-5074-a687-fc451ae3d2b6": {
+                "Binary": {
+                    "id": "8d0b2ffe-fbb9-5074-a687-fc451ae3d2b6",
+                    "number": 8,
+                    "from": {
+                        "obj_id": "2b428772-1c21-56f3-ab6f-04a5c798e08a",
+                        "description": "anchors the to side",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "to"
+                    },
+                    "to": {
+                        "obj_id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                        "description": "is drawn to",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "118be1d3-9bd7-5a9b-a230-c9a0cf1ea302": {
+                "Binary": {
+                    "id": "118be1d3-9bd7-5a9b-a230-c9a0cf1ea302",
+                    "number": 9,
+                    "from": {
+                        "obj_id": "a7d2303d-e2b5-5c4f-a7ba-a9a852146871",
+                        "description": "anchors the supertype of an",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "from"
+                    },
+                    "to": {
+                        "obj_id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                        "description": "is drawn from",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "5e536fd8-c93f-542d-8149-fb30643b9c1c": {
+                "Binary": {
+                    "id": "5e536fd8-c93f-542d-8149-fb30643b9c1c",
+                    "number": 13,
+                    "from": {
+                        "obj_id": "9a9dcaea-a969-54ba-90ce-fad03cec83d8",
+                        "description": "describes the origin of an",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "origin"
+                    },
+                    "to": {
+                        "obj_id": "423935ca-86d2-5d0a-ad35-8e7f00663448",
+                        "description": "has an origin represented by a",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            },
+            "7f5a7caa-f1f8-56dd-bced-08e54a6b4d96": {
+                "Isa": {
+                    "id": "7f5a7caa-f1f8-56dd-bced-08e54a6b4d96",
+                    "number": 2,
+                    "obj_id": "83049490-b61e-55c4-a90f-afb3361e0661",
+                    "subtypes": [
+                        "77d72046-26d1-5cde-a39a-178b4e7fff71",
+                        "82c4f811-7872-5301-8cf9-62317fb85dfe",
+                        "c5e70120-c313-5fcd-9c14-6ef38cc9b6b6",
+                        "c3bd7676-dd84-5bd7-9d19-a756d06a63c4"
+                    ]
+                }
+            },
+            "b93b891d-f1be-5d9e-ae1f-fef7351fe26e": {
+                "Binary": {
+                    "id": "b93b891d-f1be-5d9e-ae1f-fef7351fe26e",
+                    "number": 3,
+                    "from": {
+                        "obj_id": "27edcc78-f257-5a0b-a2e4-c233987e0889",
+                        "description": "describes the orientation of",
+                        "cardinality": "One",
+                        "conditionality": "Conditional",
+                        "formalizing_attribute_name": "direction"
+                    },
+                    "to": {
+                        "obj_id": "83049490-b61e-55c4-a90f-afb3361e0661",
+                        "description": "has a",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional"
+                    }
+                }
+            },
+            "1dfa4c7c-22fe-516f-bd0c-702b37e12c80": {
+                "Binary": {
+                    "id": "1dfa4c7c-22fe-516f-bd0c-702b37e12c80",
+                    "number": 1,
+                    "from": {
+                        "obj_id": "9a9dcaea-a969-54ba-90ce-fad03cec83d8",
+                        "description": "is represented in the UI by",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "object"
+                    },
+                    "to": {
+                        "obj_id": "7178e7a4-5131-504b-a7b3-c2c0cfedf343",
+                        "description": "contains additional attributes to render",
+                        "cardinality": "One",
+                        "conditionality": "Conditional"
+                    }
+                }
+            }
+        }
+    }
+}

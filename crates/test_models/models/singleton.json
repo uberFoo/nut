@@ -1,0 +1,55 @@
+{
+    "paper": {
+        "ids": [
+            "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb"
+        ],
+        "entities": {
+            "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb": {
+                "id": "88cd70e0-c065-5c4b-b1ce-69194ab4d0cb",
+                "domain_name": "singleton",
+                "description": "Domain to test the poor, lonely, Singleton type.",
+                "domain_ns": "b49d6fe1-e5e9-5896-bd42-b72012429e52",
+                "width": 4000,
+                "height": 3200,
+                "offset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "objects": {
+                    "a9866d86-99de-5079-84ef-ec4efcae48c4": {
+                        "x": 612,
+                        "y": 454,
+                        "width": 253,
+                        "height": 128,
+                        "id": "a9866d86-99de-5079-84ef-ec4efcae48c4"
+                    }
+                },
+                "relationships": {}
+            }
+        }
+    },
+    "objects": {
+        "ids": [
+            "a9866d86-99de-5079-84ef-ec4efcae48c4"
+        ],
+        "entities": {
+            "a9866d86-99de-5079-84ef-ec4efcae48c4": {
+                "id": "a9866d86-99de-5079-84ef-ec4efcae48c4",
+                "key_letter": "S",
+                "name": "Singleton",
+                "description": "This is a singleton type\n\nThis means that there is only ever one instance of this type. There are restrictions on what may constitute a singleton. It requires that there be only an `id` on the type.\n\n❗️{ \"singleton_object\": true, \"imported_object\": null }",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            }
+        }
+    },
+    "relationships": {
+        "ids": [],
+        "entities": {}
+    }
+}

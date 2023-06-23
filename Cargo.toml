@@ -1,0 +1,73 @@
+[package]
+name = "nut"
+version = "1.0.0"
+authors = ["Keith T. Star <uberfoo@me.com>"]
+copyright = "Copyright © 2023 Keith T. Star. All rights reserved."
+categories = ["compilers", "memory-management"]
+description = "Nut is the first model compiler I wrote. It bootstraps sarzak."
+documentation = "https://uberfoo.github.io/assets/docs/dwarf/introduction.html"
+homepage = "https://uberfoo.github.io/assets/docs/dwarf/introduction.html"
+include = ["src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
+keywords = ["nut", "dwarf", "sarzak", "compiler"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/uberfoo/nut"
+edition = "2021"
+
+[[bin]]
+name = "code_gen_ooa0"
+path = "src/bin/ooa_0/code_gen.rs"
+
+[[bin]]
+name = "gen_schema_ooa0"
+path = "src/bin/ooa_0/gen_schema.rs"
+
+[[bin]]
+name = "prep_stage_ooa0"
+path = "src/bin/ooa_0/prep_stage.rs"
+
+[[bin]]
+name = "prep_stage_ooa1"
+path = "src/bin/ooa_1/prep_stage.rs"
+
+[[bin]]
+name = "prep_stage_ooa2"
+path = "src/bin/ooa_2/prep_stage.rs"
+
+[[bin]]
+name = "gen_code_drawing"
+path = "src/bin/drawing/gen_code.rs"
+
+[[bin]]
+name = "gen_macro_drawing"
+path = "src/bin/drawing/gen_macro.rs"
+
+[[bin]]
+name = "gen_store_drawing"
+path = "src/bin/drawing/gen_store.rs"
+
+[dependencies]
+anyhow = "1.0.68"
+clap = { version = "4.0.19", features = ["cargo", "derive"] }
+diff = "0.1.13"
+heck = "0.4.0"
+log = "0.4.17"
+names = "0.14.0"
+quote = "1.0.22"
+rand = "0.8.5"
+random-string = "1.0.0"
+serde_json = "1.0.87"
+snafu = "0.7.4"
+tempfile = "3.3.0"
+toml = "0.5.9"
+unicode-segmentation = "1.10.0"
+
+[dependencies.serde]
+version = "1.0"
+features = ["derive", "rc"]
+
+[dependencies.uuid]
+version = "1.2.1"
+features = ["v5", "serde", "v4"]
+
+[dev-dependencies]
+env_logger = "0.10.0"

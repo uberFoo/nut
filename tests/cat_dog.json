@@ -1,0 +1,95 @@
+{
+    "Objects": [
+        {
+            "Object": {
+                "id": "a85c0c72-35e1-54f9-828b-d8a34503b25c",
+                "key_letter": "A",
+                "name": "Animal",
+                "description": "",
+                "attributes": {
+                    "e388b73a-f210-56ce-bd89-58ecad7dfaee": {
+                        "id": "e388b73a-f210-56ce-bd89-58ecad7dfaee",
+                        "name": "id",
+                        "type": "Uuid"
+                    }
+                }
+            }
+        },
+        {
+            "Object": {
+                "id": "e1be2add-a39d-532e-bcb2-c4459717ffe7",
+                "key_letter": "D",
+                "name": "Dog",
+                "description": "I go woof!",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "6695235e-4f1a-5e9c-9e1e-7df811c9f276": {
+                        "id": "6695235e-4f1a-5e9c-9e1e-7df811c9f276",
+                        "name": "name",
+                        "type": "String"
+                    }
+                }
+            }
+        },
+        {
+            "Object": {
+                "id": "302da172-cfe7-5097-80e2-7aa9abdb6be6",
+                "key_letter": "C",
+                "name": "Cat",
+                "description": "Meow...",
+                "attributes": {
+                    "4717289d-ed9c-5931-94ce-a73a66b88856": {
+                        "id": "4717289d-ed9c-5931-94ce-a73a66b88856",
+                        "name": "id",
+                        "type": "Uuid"
+                    },
+                    "35ac9c16-b03e-5986-83ee-4c8db85589f2": {
+                        "id": "35ac9c16-b03e-5986-83ee-4c8db85589f2",
+                        "name": "disposition",
+                        "type": "String"
+                    }
+                }
+            }
+        }
+    ],
+    "Relationships": [
+        {
+            "Relationship": {
+                "Isa": {
+                    "id": "dc116c5e-0b88-5bcc-89b1-648008fafe45",
+                    "number": 1,
+                    "obj_id": "a85c0c72-35e1-54f9-828b-d8a34503b25c",
+                    "subtypes": [
+                        "e1be2add-a39d-532e-bcb2-c4459717ffe7",
+                        "302da172-cfe7-5097-80e2-7aa9abdb6be6"
+                    ]
+                }
+            }
+        },
+        {
+            "Relationship": {
+                "Binary": {
+                    "id": "bb8d0f44-40c9-5c3b-bf05-dfa1fdeaba33",
+                    "number": 2,
+                    "from": {
+                        "obj_id": "e1be2add-a39d-532e-bcb2-c4459717ffe7",
+                        "description": "chases",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional",
+                        "formalizing_attribute_name": "id"
+                    },
+                    "to": {
+                        "obj_id": "302da172-cfe7-5097-80e2-7aa9abdb6be6",
+                        "description": "is chased by",
+                        "cardinality": "One",
+                        "conditionality": "Unconditional"
+                    }
+                }
+            }
+        }
+    ]
+}
