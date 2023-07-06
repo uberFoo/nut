@@ -2,7 +2,6 @@
 name = "nut"
 version = "1.0.0"
 authors = ["Keith T. Star <uberfoo@me.com>"]
-copyright = "Copyright © 2023 Keith T. Star. All rights reserved."
 categories = ["compilers", "memory-management"]
 description = "Nut is the first model compiler I wrote. It bootstraps sarzak."
 documentation = "https://uberfoo.github.io/assets/docs/dwarf/introduction.html"
