@@ -1,3 +1,5 @@
+![Lines of Code](https://tokei.rs/b1/github/uberfoo/nut)
+
 # Nut: a hard one to crack, also the meat of the matter
 
 The idea is to generate code from models.
